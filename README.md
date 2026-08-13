@@ -2,7 +2,7 @@
 
 A macOS-like web desktop built with React. The app provides a desktop environment with draggable/resizable windows and several built-in apps such as GitHub viewer, Resume (PDF) viewer, Notes, CLI, Email, Calendar, and more — aiming to reproduce the look-and-feel of macOS in the browser.
 
-Live project link : https://portfolio-mac-os-nine.vercel.app/
+
 
 This README describes the project structure, development setup, available apps/components, and how to contribute.
 
