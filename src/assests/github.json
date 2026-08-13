@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "/public/images/dashb.png",
+    "title": "Professional Dashboard",
+    "description": "A sleek all-in-one productivity dashboard that helps users stay focused, organized, and productive with a To-Do List, Daily Planner, Motivational Quotes, Pomodoro Timer, Live Weather, and theme customization.",
+    "tags": [
+      "HTML", 
+      "CSS",
+      "JavaScript",
+      "LocalStorage",
+      "WeatherAPI",
+      "Quotable API",
+      "Vercel"
+    ],
+    "repolink": "https://github.com/Aditya2045/Professional-Dashboard",
+    "demolink": "https://aditya2045.github.io/Professional-Dashboard/"
+  },
+  {
+    "id": 2,
+    "image": "/public/images/recipe.png",
+    "title": "Recipe Management System",
+    "description": "A modern and responsive Recipe Management application where users can create, view, update, and delete recipes with ingredients, instructions, categories, and images.",
+    "tags": [
+      "React.js",
+      "Tailwind CSS",
+      "React Router DOM",
+      "React Hook Form",
+      "React Toastify",
+      "Nanoid",
+      "LocalStorage",
+      "Vite"
+    ],
+    "repolink": "https://github.com/Aditya2045/Recipe-Project",
+    "demolink": "https://recipe-maker-delta.vercel.app/"
+  }
+]

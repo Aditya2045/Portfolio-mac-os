@@ -1,0 +1,41 @@
+import React from 'react'
+import "./nav.scss"
+import DateTime from './DateTime'
+
+const Navbar = () => {
+  return (
+    <nav>
+        <div className='left'>
+           <div className='apple-icon'>
+                 <img src="/public/navbar-icons/apple.svg" alt="" />
+           </div>
+
+           <div className='nav-items'>
+            <p>Aditya Sharma</p>
+           </div>
+           <div className='nav-items'>
+            <p>File</p>
+           </div>
+           <div className='nav-items'>
+            <p>Window</p>
+           </div>
+           <div className='nav-items'>
+            <p>Terminal</p>
+           </div>
+
+        </div>
+        
+        <div className='right'>
+            <div className='nav-icon'>
+                <img src="/public/navbar-icons/wifi.svg" alt="" />
+            </div>
+
+            <div className='nav-items'>
+            <DateTime/>
+           </div>
+        </div>
+    </nav>
+  )
+}
+
+export default Navbar

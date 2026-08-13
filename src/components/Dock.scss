@@ -1,0 +1,58 @@
+
+footer{
+    display: flex;
+    gap: 0.75rem;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(66, 63, 63, 0.151);
+    padding: 1rem 0.75rem;
+    border-radius: 0.75rem;
+    backdrop-filter: blur();
+
+
+    .icon{
+        padding: 0.65rem;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 1/1;
+        width: 3.75rem;
+        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+    }
+
+    .github,.cli{
+        background-color: black;
+    }
+
+    .note{
+        background-color: orangered;
+    }
+
+    .pdf{
+        background:rgba(234, 6, 6, 0.639);
+    }
+    .calender,.mail{
+        background: linear-gradient(to bottom ,rgb(77, 77, 223),rgba(51, 51, 213, 0.694));
+    }
+    .spotify{
+        background: linear-gradient(to bottom,rgba(79, 230, 79, 0.929),rgba(4, 101, 4, 0.753));
+    }
+    .link{
+        background:linear-gradient(to bottom,rgb(189, 50, 166),rgb(159, 7, 133)) ;
+    }
+
+    .icon:hover{
+        transform: scale(1.2) translateY(-20%);
+
+        cursor: pointer;
+    }
+    .icon:hover + .icon,
+    .icon:has(+.icon:hover){
+        transform: scale(1.1) translateY(-10%);
+    }
+}
+
